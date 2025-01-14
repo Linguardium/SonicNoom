@@ -2,30 +2,25 @@
 	"schemaVersion": 1,
 	"id": "${modid}",
 	"version": "${version}",
-	"name": "MixinOnlyTemplate",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Sonic Noom",
+	"description": "Makes the Warden's Sonic Boom a bit more manageable (with rules)",
 	"authors": [
-		"Me!"
+		"Linguardium"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/mixinonlytemplate/icon.png",
+	"icon": "assets/sonicnoom/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-		],
-		"client": [
+			"mod.linguardium.sonicnoom.ConfigManager::init"
 		]
 	},
 	"mixins": [
-		"mixinonlytemplate.mixins.json",
-		{
-			"config": "mixinonlytemplate.client.mixins.json",
-			"environment": "client"
-		}
+		"sonicnoom.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=${loader_version}",

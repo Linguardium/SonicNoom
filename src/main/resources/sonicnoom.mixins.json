@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "mod.linguardium.sonicnoom.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "LivingEntitySonicBoomShielding",
+    "SonicBoomMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
