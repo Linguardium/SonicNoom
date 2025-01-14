@@ -8,10 +8,9 @@
 		"Linguardium"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Linguardium/SonicNoom"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/sonicnoom/icon.png",
 	"environment": "*",
 	"entrypoints": {
